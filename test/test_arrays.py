@@ -1,5 +1,5 @@
 import unittest
-from solutions import arrays
+from solutions import array_solutions as sol
 
 class testTwoSum(unittest.TestCase):
     def test1(self):
@@ -9,7 +9,7 @@ class testTwoSum(unittest.TestCase):
         expected_output = [0, 1]
 
         # Execute
-        ans = arrays.twoSum(arr, target)
+        ans = sol.twoSum(arr, target)
 
         # Assert
         self.assertEqual(ans, expected_output)
@@ -21,7 +21,7 @@ class testTwoSum(unittest.TestCase):
         expected_output = [1, 3]
 
         # Execute
-        ans = arrays.twoSum(arr, target)
+        ans = sol.twoSum(arr, target)
 
         # Assert
         self.assertEqual(ans, expected_output)
@@ -33,7 +33,7 @@ class testTwoSum(unittest.TestCase):
         expected_output = [1, 5]
 
         # Execute
-        ans = arrays.twoSum(arr, target)
+        ans = sol.twoSum(arr, target)
 
         # Assert
         self.assertEqual(ans, expected_output)
