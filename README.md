@@ -2,17 +2,8 @@
 A Python Library containing my LeetCode solutions
 
 ## Usage
-To Build Virtual Environment:
+Run unit tests:
 ```
-make clean; make
-```
-
-To Run Tests:
-```
-make test
-```
-or
-```
-./runTests
+python3 -m unittest
 ```
 
